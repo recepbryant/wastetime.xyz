@@ -1,46 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>wastetime.io | bryant</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <title>WasteTime</title>
 </head>
 <body>
-
-  <div class="animation-container" id="animationContainer"></div>
-
-  <header class="hero" id="hero">
-    <h1>wastetime.io</h1>
-    <p>Waste time wisely</p>
-    <button onclick="redirect()">Waste My Time</button>
-  </header>
-
-  <section class="games">
-    <div class="game" onclick="location.href='pages/spinning-banana/'">
-      <img src="assets/images/banana.png" alt="Banana" />
-      <h2>Spinning Banana</h2>
-    </div>
-  </section>
-
-  <script src="js/main.js"></script>
-  <script>
-    window.addEventListener('scroll', () => {
-      const hero = document.getElementById('hero');
-      const scrollY = window.scrollY;
-      const opacity = Math.max(1 - scrollY / 400, 0);
-      hero.style.opacity = opacity;
-    });
-
-    function redirect() {
-      const games = [
-        'pages/spinning-bananan/',
-      ];
-      const randomGame = games[Math.floor(Math.random() * games.length)];
-      window.location.href = randomGame;
-    }
-  </script>
-
+  <h1>Site çalışıyor 🎉</h1>
+  <p>Merhaba dünya!</p>
 </body>
 </html>
